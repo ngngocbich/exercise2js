@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+.background {
+    width: 720px;
+    height: 100vh;
+}
+.login {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 350px;
+}
+.text {
+    color: var(--800, #2D3748);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.title {
+    color: var(--900, #1A202C);
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+form {
+    margin-top: 24px;
+}
+.input-box label {
+    margin-bottom: 11px;
+    color: var(--700, #4A5568);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.input-box input {
+    width: 100%;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #E8E8E8;
+    padding-left: 20px;
+    color: var(--800, #2D3748);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.remember-forgot {
+    display: flex;
+    margin-top: 28px;
+    margin-bottom: 27px;
+    justify-content: space-between;
+    color: var(--800, #2D3748);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.remember-forgot label input {
+    margin-right: 11px;
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+    fill: var(--100, #F7FAFC);
+    stroke-width: 1px;
+    stroke: #E8E8E8;
+}
+.remember-forgot a {
+    color: var(--800, #2C5282);
+    text-decoration: none;
+}
+.btn {
+    width: 100%;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: #04C35C;
+}
+.btn-next {
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    text-align: center;
+    background: var(--800, #2D3748);
+    font-family: 'Roboto', sans-serif;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.btn-next p img {
+    padding-right: 11px;
+    margin-bottom: 0;
+}
+.login__join {
+    text-align: center;
+    color: #616161;
+    font-family: Roboto;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
