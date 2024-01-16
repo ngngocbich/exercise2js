@@ -16,7 +16,10 @@ html {
 .login {
     margin-top: auto;
     margin-bottom: auto;
-    width: 350px;
+    width: 100%;
+}
+.login div{
+    width: auto;
 }
 .text {
     color: var(--800, #2D3748);
